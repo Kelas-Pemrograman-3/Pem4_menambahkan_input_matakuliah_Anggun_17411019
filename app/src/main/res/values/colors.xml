@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    //tambah warna
+    <color name="teal">#a4b0be</color>
+    <color name="biru">#7FB3D5</color>
+    <color name="hijau">#2ECC71</color>
+</resources>

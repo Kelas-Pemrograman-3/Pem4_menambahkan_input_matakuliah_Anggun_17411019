@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/teal"
+    tools:context=".inputmkactivity">
+
+    <TextView
+        android:id="@+id/txtregister"
+        android:layout_width="215dp"
+        android:layout_height="65dp"
+        android:text="Input Data"
+        android:textSize="45dp"/>
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/regis"/>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/rounded_background">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtkodemk"
+            android:hint="kode"
+            android:inputType="textAutoComplete"
+            android:drawableRight="@drawable/ic_npm"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtnamamk"
+            android:hint="namamk"
+            android:inputType="textAutoComplete"
+            android:drawableRight="@drawable/ic_npm"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtjam"
+            android:hint="jam"
+            android:inputType="textAutoComplete"
+            android:drawableRight="@drawable/ic_npm"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edthari"
+            android:inputType="textAutoComplete"
+            android:hint="hari"
+            android:drawableRight="@drawable/ic_password"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtruangan"
+            android:hint="ruangan"
+            android:inputType="textAutoComplete"
+            android:drawableRight="@drawable/ic_npm"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtdosen"
+            android:hint="dosen"
+            android:inputType="textAutoComplete"
+            android:drawableRight="@drawable/ic_npm"/>
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="6dp"
+            android:layout_marginLeft="5dp"
+            android:text="BUAT"
+            android:id="@+id/btnbuat"
+            android:background="@drawable/rounded_background"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
